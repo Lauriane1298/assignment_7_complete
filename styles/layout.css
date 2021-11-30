@@ -104,6 +104,20 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #container #slider{}
 
+/* ------Statistic-----*/
+/* Turned off for header font */
+/* h1{font-family: 'Aharoni', sans-serif; text-align: center; margin:0; padding:0; font-size:28px; font-weight:bold; font-style:normal; line-height:normal;} */
+#mid_text{font-family: 'Times New Roman', serif; text-align: center; margin:0; padding:0; font-size:28px; font-weight:lighter; font-style:normal; line-height:normal; margin: 20px;}
+
+/* mid-container */
+.mid-container {
+    border-width: 2px; 
+    border-color: #000000;
+    border-style: inset;
+    margin: 50px
+}
+/* mid-container */
+
 /* ------Main Content-----*/
 
 #container #homepage{display:block; width:100%; line-height:1.8em;}
