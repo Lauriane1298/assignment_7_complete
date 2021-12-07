@@ -8,7 +8,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#000000; background-color:#ffffff;}
+body{margin:0px; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#000000; background-color:#ffffff;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -96,17 +96,48 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
   font: gill sans;
   font-family: sans-serif;
   font-size: 22px;
-
 }
 
-.column_1{
-  column-count: 2;
-  column-width: 170px;
-  column-gap: 20px;
-  line-height: 170%;
-  margin-left: 240px;
-  margin-right: 240px;
-  text-indent: 50px
+.food{
+    margin-left: 242px;
+    margin-right: 242px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 170%;
+}
+
+.producers{
+    margin-left: 242px;
+    margin-right: 242px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    line-height: 170%;
+}
+
+.producerstext{
+    margin-left: 242px;
+    margin-right: 242px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 170%;
+}
+
+.consumers{
+    margin-left: 242px;
+    margin-right: 242px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    line-height: 170%;
+}
+
+.consumerstext{
+    margin-left: 242px;
+    margin-right: 242px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 170%;
 }
   
 .photo{
@@ -117,7 +148,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 .slogan{
   margin-left: 43%;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font: gill sans;
   font-family: sans-serif;
@@ -181,88 +212,44 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 /*----------------------------------------------Footer-------------------------------------*/
 
 .footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#000000;
-}
-
-.footer-basic ul {
-  list-style: none;
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:15px;
-  line-height:1.6;
-  margin-bottom:0;
-}
-
-.footer-basic li {
-  display: inline;
-  padding:0 5px 20px 5px;
-}
-
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
-}
-
-.footer-basic .image {
-    margin: 20px;
-    margin-left: 50%;
-}
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:12px;
-  color:#000000;
-  margin-bottom:0;
-}/*----------------------------------------------Footer-------------------------------------*/
-
-.footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#000000;
-}
-
-.footer-basic ul {
-  list-style: none;
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:15px;
-  line-height:1.6;
-  margin-bottom:0;
-}
-
-.footer-basic li {
-  display: inline;
-  padding:0 5px 20px 5px;
-}
-
-.footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-basic ul a:hover {
-  opacity:1;
-}
-
-.footer-basic .image {
-    margin: 20px 658px 20px;
-}
-
-.footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:12px;
-  color:#000000;
-  margin-bottom:0;
-}
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#000000;
+  }
+  
+  .footer-basic ul {
+    list-style: none;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    display: inline;
+    padding:0 5px 20px 5px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .image {
+      margin: 20px 658px 20px;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:12px;
+    color:#000000;
+    margin-bottom:0;
+  }
